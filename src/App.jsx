@@ -16,13 +16,17 @@ const viewComponents = {
   tips: TipsView,
   about: AboutView,
 };
-
 export default function App() {
-  const [activeView, setActiveView] = useState('chat');
+  const initialView = new URLSearchParams(window.location.search).get('view') || 
+                      (window.location.hash ? window.location.hash.replace('#', '') : 'chat');
+  const [activeView, setActiveView] = useState(viewComponents[initialView] ? initialView : 'chat');
   const [isDark, setIsDark] = useState(true);
   const [calcResults, setCalcResults] = useState(null);
 
-  const handleViewChange = useCallback((view) => setActiveView(view), []);
+  const handleViewChange = useCallback((view) => {
+    setActiveView(view);
+    window.location.hash = view;
+  }, []);
   const handleThemeToggle = useCallback(() => setIsDark(prev => !prev), []);
   const handleCalcResults = useCallback((results) => setCalcResults(results), []);
 
