@@ -1,0 +1,486 @@
+{
+  "categories": {
+    "food": {
+      "name": "Food & Diet",
+      "icon": "🍽️",
+      "color": "#4CAF50"
+    },
+    "transport": {
+      "name": "Transportation",
+      "icon": "🚗",
+      "color": "#2196F3"
+    },
+    "energy": {
+      "name": "Home Energy",
+      "icon": "⚡",
+      "color": "#FF9800"
+    },
+    "shopping": {
+      "name": "Shopping & Consumption",
+      "icon": "🛍️",
+      "color": "#E91E63"
+    },
+    "waste": {
+      "name": "Waste & Recycling",
+      "icon": "♻️",
+      "color": "#9C27B0"
+    },
+    "water": {
+      "name": "Water Usage",
+      "icon": "💧",
+      "color": "#00BCD4"
+    }
+  },
+  "tips": [
+    {
+      "id": 1,
+      "category": "food",
+      "title": "Try Meatless Mondays",
+      "description": "Replacing meat with plant-based meals just one day a week can save approximately 0.6 kg CO₂e per meal. Over a year, that's over 30 kg of emissions avoided.",
+      "co2_saving_kg_year": 31.2,
+      "difficulty": "easy",
+      "keywords": ["meat", "vegetarian", "monday", "plant", "diet", "meal"]
+    },
+    {
+      "id": 2,
+      "category": "food",
+      "title": "Buy Local & Seasonal Produce",
+      "description": "Locally grown, seasonal fruits and vegetables travel shorter distances and require less refrigeration. This can reduce food-related emissions by up to 10%.",
+      "co2_saving_kg_year": 45,
+      "difficulty": "easy",
+      "keywords": ["local", "seasonal", "produce", "vegetables", "fruits", "farm", "market"]
+    },
+    {
+      "id": 3,
+      "category": "food",
+      "title": "Reduce Food Waste",
+      "description": "Plan your meals, store food properly, and use leftovers creatively. About 1/3 of all food produced globally is wasted, contributing 8-10% of global greenhouse gas emissions.",
+      "co2_saving_kg_year": 200,
+      "difficulty": "medium",
+      "keywords": ["waste", "leftover", "plan", "meal", "spoil", "throw", "compost"]
+    },
+    {
+      "id": 4,
+      "category": "food",
+      "title": "Choose Plant-Based Milk",
+      "description": "Switching from dairy milk to oat or soy milk can reduce emissions by up to 70%. One glass of dairy milk produces about 0.6 kg CO₂e vs 0.2 kg for plant-based alternatives.",
+      "co2_saving_kg_year": 146,
+      "difficulty": "easy",
+      "keywords": ["milk", "dairy", "oat", "soy", "almond", "plant", "drink"]
+    },
+    {
+      "id": 5,
+      "category": "food",
+      "title": "Grow Your Own Herbs",
+      "description": "Growing herbs at home (tulsi, mint, coriander) eliminates packaging and transport emissions. It also reduces plastic waste from store-bought herbs.",
+      "co2_saving_kg_year": 8,
+      "difficulty": "easy",
+      "keywords": ["grow", "herb", "garden", "home", "plant", "tulsi", "mint"]
+    },
+    {
+      "id": 6,
+      "category": "food",
+      "title": "Carry a Reusable Water Bottle",
+      "description": "Manufacturing a single plastic bottle produces about 82.8g of CO₂. Using a reusable bottle for a year saves approximately 30 kg CO₂ and prevents 150+ plastic bottles from entering waste streams.",
+      "co2_saving_kg_year": 30,
+      "difficulty": "easy",
+      "keywords": ["water", "bottle", "plastic", "reusable", "drink"]
+    },
+    {
+      "id": 7,
+      "category": "food",
+      "title": "Reduce Processed Food Intake",
+      "description": "Processed and packaged foods have 2-3x the carbon footprint of whole foods due to manufacturing, packaging, and cold-chain logistics.",
+      "co2_saving_kg_year": 120,
+      "difficulty": "medium",
+      "keywords": ["processed", "packaged", "junk", "fast food", "chips", "frozen"]
+    },
+    {
+      "id": 8,
+      "category": "food",
+      "title": "Start Composting Kitchen Waste",
+      "description": "Composting organic waste instead of sending it to landfill prevents methane emissions (25x more potent than CO₂). Even a small kitchen compost bin makes a difference.",
+      "co2_saving_kg_year": 100,
+      "difficulty": "medium",
+      "keywords": ["compost", "kitchen", "organic", "waste", "decompose", "soil"]
+    },
+    {
+      "id": 9,
+      "category": "transport",
+      "title": "Use Public Transport",
+      "description": "Taking a bus emits 50-75% less CO₂ per passenger-km than driving alone. Metro/trains are even better, producing about 80% less emissions than a car.",
+      "co2_saving_kg_year": 900,
+      "difficulty": "easy",
+      "keywords": ["bus", "train", "metro", "public", "transport", "commute"]
+    },
+    {
+      "id": 10,
+      "category": "transport",
+      "title": "Cycle for Short Trips",
+      "description": "For trips under 5 km, cycling is zero-emission and saves approximately 0.19 kg CO₂ per km compared to a petrol car. Plus, it's great exercise!",
+      "co2_saving_kg_year": 350,
+      "difficulty": "medium",
+      "keywords": ["cycle", "bicycle", "bike", "ride", "pedal", "short"]
+    },
+    {
+      "id": 11,
+      "category": "transport",
+      "title": "Carpool to Work or College",
+      "description": "Sharing a car ride with 3 others reduces per-person emissions by 75%. Many apps now make carpooling easy and affordable.",
+      "co2_saving_kg_year": 600,
+      "difficulty": "easy",
+      "keywords": ["carpool", "share", "ride", "colleague", "together", "car"]
+    },
+    {
+      "id": 12,
+      "category": "transport",
+      "title": "Work/Study from Home When Possible",
+      "description": "Each day of remote work eliminates your commute emissions entirely. Even 2 days/week of WFH can save 200+ kg CO₂ per year.",
+      "co2_saving_kg_year": 200,
+      "difficulty": "easy",
+      "keywords": ["remote", "home", "work", "wfh", "online", "commute", "avoid"]
+    },
+    {
+      "id": 13,
+      "category": "transport",
+      "title": "Maintain Your Vehicle Properly",
+      "description": "Properly inflated tires, regular servicing, and removing unnecessary weight can improve fuel efficiency by 3-5%, saving both emissions and money.",
+      "co2_saving_kg_year": 80,
+      "difficulty": "easy",
+      "keywords": ["tire", "service", "fuel", "efficiency", "car", "maintenance"]
+    },
+    {
+      "id": 14,
+      "category": "transport",
+      "title": "Choose Train Over Flight for Short Trips",
+      "description": "A domestic flight emits about 6x more CO₂ per km than a train journey. For distances under 500 km, trains are both greener and often more convenient.",
+      "co2_saving_kg_year": 250,
+      "difficulty": "medium",
+      "keywords": ["flight", "fly", "airplane", "train", "travel", "trip"]
+    },
+    {
+      "id": 15,
+      "category": "transport",
+      "title": "Walk for Very Short Distances",
+      "description": "For trips under 2 km, walking is the most sustainable option. It produces zero emissions and improves your health. Many short car trips can easily be walked.",
+      "co2_saving_kg_year": 150,
+      "difficulty": "easy",
+      "keywords": ["walk", "short", "distance", "nearby", "stroll", "step"]
+    },
+    {
+      "id": 16,
+      "category": "energy",
+      "title": "Switch to LED Bulbs",
+      "description": "LED bulbs use 75% less energy than incandescent bulbs and last 25x longer. Replacing 10 bulbs in your home can save over 100 kg CO₂ per year.",
+      "co2_saving_kg_year": 100,
+      "difficulty": "easy",
+      "keywords": ["led", "bulb", "light", "lamp", "energy", "efficient", "bright"]
+    },
+    {
+      "id": 17,
+      "category": "energy",
+      "title": "Unplug Devices When Not in Use",
+      "description": "Standby power (phantom load) accounts for 5-10% of home electricity use. Unplugging chargers, TVs, and appliances when not in use can save 50+ kg CO₂/year.",
+      "co2_saving_kg_year": 50,
+      "difficulty": "easy",
+      "keywords": ["unplug", "standby", "charger", "device", "phantom", "power", "switch off"]
+    },
+    {
+      "id": 18,
+      "category": "energy",
+      "title": "Use a Fan Instead of AC",
+      "description": "A ceiling fan uses about 75W vs 1500W+ for an AC. Even using a fan for 4 hours instead of AC daily can save over 400 kg CO₂ per year.",
+      "co2_saving_kg_year": 400,
+      "difficulty": "medium",
+      "keywords": ["fan", "ac", "air conditioner", "cool", "temperature", "summer"]
+    },
+    {
+      "id": 19,
+      "category": "energy",
+      "title": "Set AC to 24°C or Higher",
+      "description": "Every degree below 24°C increases AC energy consumption by 6-8%. Setting your AC to 24°C instead of 20°C can save 25-30% on cooling energy.",
+      "co2_saving_kg_year": 180,
+      "difficulty": "easy",
+      "keywords": ["ac", "temperature", "degree", "cool", "thermostat", "24"]
+    },
+    {
+      "id": 20,
+      "category": "energy",
+      "title": "Use Solar Water Heater",
+      "description": "A solar water heater can reduce your water heating energy by 70-80%. In sunny regions of India, it's one of the best investments for reducing emissions.",
+      "co2_saving_kg_year": 300,
+      "difficulty": "hard",
+      "keywords": ["solar", "water", "heater", "geyser", "hot", "sun"]
+    },
+    {
+      "id": 21,
+      "category": "energy",
+      "title": "Wash Clothes in Cold Water",
+      "description": "About 90% of energy used by washing machines goes to heating water. Washing in cold water can reduce laundry emissions by 50% with no loss in cleaning quality.",
+      "co2_saving_kg_year": 60,
+      "difficulty": "easy",
+      "keywords": ["wash", "laundry", "clothes", "cold", "water", "machine"]
+    },
+    {
+      "id": 22,
+      "category": "energy",
+      "title": "Air Dry Your Clothes",
+      "description": "Using a clothesline instead of an electric dryer saves about 2.4 kg CO₂ per load. India's climate makes air drying practical for most of the year.",
+      "co2_saving_kg_year": 250,
+      "difficulty": "easy",
+      "keywords": ["dry", "clothes", "line", "sun", "dryer", "air"]
+    },
+    {
+      "id": 23,
+      "category": "energy",
+      "title": "Use a Pressure Cooker",
+      "description": "Pressure cookers use 70% less energy than conventional cooking methods. They cook food faster, saving both time and gas/electricity.",
+      "co2_saving_kg_year": 80,
+      "difficulty": "easy",
+      "keywords": ["pressure", "cooker", "cook", "gas", "stove", "kitchen", "energy"]
+    },
+    {
+      "id": 24,
+      "category": "shopping",
+      "title": "Buy Less, Choose Well",
+      "description": "The fashion industry produces 10% of global carbon emissions. Buying fewer, higher-quality items that last longer significantly reduces your fashion footprint.",
+      "co2_saving_kg_year": 200,
+      "difficulty": "medium",
+      "keywords": ["buy", "less", "quality", "fashion", "clothes", "shopping", "fast"]
+    },
+    {
+      "id": 25,
+      "category": "shopping",
+      "title": "Choose Second-Hand or Thrift",
+      "description": "Buying second-hand extends product life and avoids the emissions from manufacturing new items. Each second-hand garment saves approximately 5-10 kg CO₂.",
+      "co2_saving_kg_year": 150,
+      "difficulty": "easy",
+      "keywords": ["second hand", "thrift", "used", "pre-owned", "vintage", "reuse"]
+    },
+    {
+      "id": 26,
+      "category": "shopping",
+      "title": "Carry Reusable Bags",
+      "description": "India generates 26,000 tonnes of plastic waste daily. Carrying your own cloth/jute bag eliminates the need for single-use plastic bags.",
+      "co2_saving_kg_year": 12,
+      "difficulty": "easy",
+      "keywords": ["bag", "plastic", "reusable", "cloth", "jute", "carry", "shopping"]
+    },
+    {
+      "id": 27,
+      "category": "shopping",
+      "title": "Repair Instead of Replace",
+      "description": "Repairing electronics, clothes, and furniture instead of replacing them avoids manufacturing emissions. A repaired phone saves 70 kg CO₂ vs buying new.",
+      "co2_saving_kg_year": 100,
+      "difficulty": "medium",
+      "keywords": ["repair", "fix", "broken", "replace", "mend", "restore"]
+    },
+    {
+      "id": 28,
+      "category": "shopping",
+      "title": "Avoid Excessive Online Ordering",
+      "description": "Each express delivery package generates 3-4x the emissions of standard shipping. Batch your orders and avoid single-item deliveries.",
+      "co2_saving_kg_year": 40,
+      "difficulty": "easy",
+      "keywords": ["online", "order", "delivery", "package", "amazon", "shipping"]
+    },
+    {
+      "id": 29,
+      "category": "shopping",
+      "title": "Use a Refillable Steel Straw & Cutlery Set",
+      "description": "Single-use plastic straws and cutlery add up quickly. A reusable set prevents hundreds of plastic items from entering landfills each year.",
+      "co2_saving_kg_year": 5,
+      "difficulty": "easy",
+      "keywords": ["straw", "cutlery", "plastic", "reusable", "steel", "bamboo"]
+    },
+    {
+      "id": 30,
+      "category": "shopping",
+      "title": "Keep Your Phone Longer",
+      "description": "Manufacturing a smartphone produces ~70 kg CO₂. Using your phone for 4 years instead of 2 effectively halves its annual carbon impact.",
+      "co2_saving_kg_year": 35,
+      "difficulty": "easy",
+      "keywords": ["phone", "smartphone", "upgrade", "new", "mobile", "device"]
+    },
+    {
+      "id": 31,
+      "category": "waste",
+      "title": "Segregate Your Waste",
+      "description": "Separating wet, dry, and hazardous waste at source enables proper recycling and composting. This can divert 60-80% of waste from landfills.",
+      "co2_saving_kg_year": 180,
+      "difficulty": "easy",
+      "keywords": ["segregate", "separate", "sort", "wet", "dry", "recycle", "waste"]
+    },
+    {
+      "id": 32,
+      "category": "waste",
+      "title": "Say No to Single-Use Plastics",
+      "description": "Refuse plastic straws, cups, plates, and packaging whenever possible. Each kg of plastic avoided prevents 6 kg of CO₂ from being emitted during production.",
+      "co2_saving_kg_year": 50,
+      "difficulty": "medium",
+      "keywords": ["plastic", "single use", "disposable", "refuse", "avoid", "cup"]
+    },
+    {
+      "id": 33,
+      "category": "waste",
+      "title": "Donate What You Don't Need",
+      "description": "Instead of throwing away clothes, electronics, or furniture, donate them. This extends their useful life and prevents manufacturing emissions from replacements.",
+      "co2_saving_kg_year": 80,
+      "difficulty": "easy",
+      "keywords": ["donate", "give", "charity", "old", "unused", "dispose"]
+    },
+    {
+      "id": 34,
+      "category": "waste",
+      "title": "Recycle E-Waste Properly",
+      "description": "E-waste contains toxic materials that pollute soil and water in landfills. Proper e-waste recycling recovers valuable materials and prevents environmental contamination.",
+      "co2_saving_kg_year": 45,
+      "difficulty": "medium",
+      "keywords": ["ewaste", "electronics", "battery", "recycle", "dispose", "computer"]
+    },
+    {
+      "id": 35,
+      "category": "waste",
+      "title": "Use Cloth Napkins & Towels",
+      "description": "Replacing paper towels and napkins with washable cloth alternatives saves trees and reduces waste. One cloth napkin replaces thousands of paper ones over its lifetime.",
+      "co2_saving_kg_year": 15,
+      "difficulty": "easy",
+      "keywords": ["napkin", "towel", "paper", "tissue", "cloth", "washable"]
+    },
+    {
+      "id": 36,
+      "category": "water",
+      "title": "Fix Leaky Taps Immediately",
+      "description": "A dripping tap can waste 20+ liters of water per day. Fixing leaks conserves water and reduces the energy needed to treat and pump water.",
+      "co2_saving_kg_year": 20,
+      "difficulty": "easy",
+      "keywords": ["leak", "tap", "drip", "fix", "faucet", "water", "waste"]
+    },
+    {
+      "id": 37,
+      "category": "water",
+      "title": "Take Shorter Showers",
+      "description": "Reducing shower time by 2 minutes saves about 20 liters of water per shower. If using hot water, this also saves significant energy.",
+      "co2_saving_kg_year": 35,
+      "difficulty": "easy",
+      "keywords": ["shower", "bath", "water", "short", "quick", "save"]
+    },
+    {
+      "id": 38,
+      "category": "water",
+      "title": "Harvest Rainwater",
+      "description": "Rainwater harvesting reduces dependency on groundwater and municipal supply. Collected rainwater can be used for gardening, cleaning, and even filtered for drinking.",
+      "co2_saving_kg_year": 40,
+      "difficulty": "hard",
+      "keywords": ["rain", "harvest", "collect", "water", "tank", "rooftop"]
+    },
+    {
+      "id": 39,
+      "category": "water",
+      "title": "Use a Bucket Instead of Running Water",
+      "description": "Using a bucket for bathing, washing dishes, or cleaning uses 60-70% less water than running a tap or shower continuously.",
+      "co2_saving_kg_year": 25,
+      "difficulty": "easy",
+      "keywords": ["bucket", "tap", "running", "water", "wash", "save"]
+    },
+    {
+      "id": 40,
+      "category": "food",
+      "title": "Avoid Bottled Beverages",
+      "description": "Manufacturing and transporting bottled drinks is highly carbon-intensive. Opt for homemade juices, filtered water, and tap alternatives to cut emissions.",
+      "co2_saving_kg_year": 55,
+      "difficulty": "easy",
+      "keywords": ["bottle", "beverage", "soda", "juice", "packaged", "drink"]
+    },
+    {
+      "id": 41,
+      "category": "energy",
+      "title": "Use Natural Light During the Day",
+      "description": "Open curtains and blinds to maximize daylight instead of switching on lights. Proper window placement and light-colored walls can reduce lighting energy by 50%.",
+      "co2_saving_kg_year": 40,
+      "difficulty": "easy",
+      "keywords": ["natural", "light", "daylight", "window", "curtain", "sun"]
+    },
+    {
+      "id": 42,
+      "category": "energy",
+      "title": "Use 5-Star Rated Appliances",
+      "description": "BEE 5-star rated appliances consume 30-50% less energy than lower-rated ones. When buying new appliances, always check the energy rating label.",
+      "co2_saving_kg_year": 200,
+      "difficulty": "medium",
+      "keywords": ["appliance", "star", "rating", "bee", "energy", "efficient", "fridge"]
+    },
+    {
+      "id": 43,
+      "category": "transport",
+      "title": "Consider an Electric Two-Wheeler",
+      "description": "Electric scooters produce 0 direct emissions and cost only ₹15-20 to charge fully. They're ideal for daily commutes under 80 km.",
+      "co2_saving_kg_year": 500,
+      "difficulty": "hard",
+      "keywords": ["electric", "scooter", "ev", "two wheeler", "bike", "charge"]
+    },
+    {
+      "id": 44,
+      "category": "shopping",
+      "title": "Choose Products with Minimal Packaging",
+      "description": "Excess packaging contributes significantly to waste. Prefer products with recyclable or minimal packaging, and buy in bulk when possible.",
+      "co2_saving_kg_year": 30,
+      "difficulty": "easy",
+      "keywords": ["packaging", "wrap", "box", "plastic", "minimal", "bulk"]
+    },
+    {
+      "id": 45,
+      "category": "waste",
+      "title": "Make Your Own Cleaning Products",
+      "description": "DIY cleaning solutions using vinegar, baking soda, and lemon are effective, cheap, and eliminate plastic packaging from commercial cleaners.",
+      "co2_saving_kg_year": 20,
+      "difficulty": "medium",
+      "keywords": ["cleaning", "diy", "homemade", "chemical", "detergent", "natural"]
+    },
+    {
+      "id": 46,
+      "category": "energy",
+      "title": "Plant Trees Around Your Home",
+      "description": "Trees provide natural cooling, reducing AC needs by up to 25%. A single mature tree absorbs about 22 kg of CO₂ per year.",
+      "co2_saving_kg_year": 50,
+      "difficulty": "medium",
+      "keywords": ["tree", "plant", "shade", "garden", "green", "cool", "nature"]
+    },
+    {
+      "id": 47,
+      "category": "food",
+      "title": "Use Reusable Containers for Takeaway",
+      "description": "Carry your own steel or glass containers when ordering takeaway food. This eliminates disposable plastic and styrofoam containers.",
+      "co2_saving_kg_year": 15,
+      "difficulty": "easy",
+      "keywords": ["container", "takeaway", "tiffin", "reusable", "food", "carry"]
+    },
+    {
+      "id": 48,
+      "category": "waste",
+      "title": "Go Paperless",
+      "description": "Switch to digital documents, e-bills, and online submissions. Each kg of paper saved prevents approximately 1.5 kg of CO₂ emissions from production.",
+      "co2_saving_kg_year": 25,
+      "difficulty": "easy",
+      "keywords": ["paper", "digital", "print", "document", "bill", "receipt"]
+    },
+    {
+      "id": 49,
+      "category": "transport",
+      "title": "Use a Ride-Sharing App Efficiently",
+      "description": "When using cab services, opt for shared/pool rides instead of solo rides. This can reduce per-trip emissions by 30-50%.",
+      "co2_saving_kg_year": 150,
+      "difficulty": "easy",
+      "keywords": ["uber", "ola", "cab", "share", "pool", "ride", "taxi"]
+    },
+    {
+      "id": 50,
+      "category": "water",
+      "title": "Install Low-Flow Fixtures",
+      "description": "Low-flow showerheads and tap aerators reduce water flow by 40-60% without noticeably affecting pressure, saving both water and heating energy.",
+      "co2_saving_kg_year": 30,
+      "difficulty": "medium",
+      "keywords": ["low flow", "aerator", "showerhead", "fixture", "save", "water"]
+    }
+  ]
+}

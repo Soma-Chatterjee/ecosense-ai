@@ -1,0 +1,57 @@
+{
+  "sdg12": {
+    "number": 12,
+    "title": "Responsible Consumption and Production",
+    "description": "Ensure sustainable consumption and production patterns",
+    "icon": "♻️",
+    "color": "#BF8B2E",
+    "targets": [
+      {
+        "id": "12.2",
+        "text": "By 2030, achieve sustainable management and efficient use of natural resources"
+      },
+      {
+        "id": "12.3",
+        "text": "By 2030, halve per capita global food waste at the retail and consumer levels"
+      },
+      {
+        "id": "12.5",
+        "text": "By 2030, substantially reduce waste generation through prevention, reduction, recycling and reuse"
+      },
+      {
+        "id": "12.6",
+        "text": "Encourage companies to adopt sustainable practices and integrate sustainability information into their reporting cycle"
+      },
+      {
+        "id": "12.8",
+        "text": "By 2030, ensure that people everywhere have the relevant information and awareness for sustainable development and lifestyles in harmony with nature"
+      }
+    ],
+    "relevance_to_project": "EcoSense AI directly addresses Target 12.8 by providing individuals with relevant information and awareness about sustainable lifestyles. It also supports Target 12.3 (reducing food waste through tips) and Target 12.5 (waste reduction through recycling guidance).",
+    "facts": [
+      "If the global population reaches 9.8 billion by 2050, the equivalent of almost three planets could be required to provide the natural resources needed to sustain current lifestyles.",
+      "Each year, an estimated 1/3 of all food produced globally ends up rotting in the bins of consumers and retailers.",
+      "The food sector accounts for around 22% of total greenhouse gas emissions.",
+      "The fashion industry is responsible for 10% of annual global carbon emissions.",
+      "Only 9% of all plastic ever produced has been recycled.",
+      "Global material footprint rose from 73.2 billion tonnes in 2010 to 85.9 billion tonnes in 2017."
+    ]
+  },
+  "related_sdgs": [
+    {
+      "number": 13,
+      "title": "Climate Action",
+      "connection": "Reducing personal carbon footprint directly contributes to climate action"
+    },
+    {
+      "number": 3,
+      "title": "Good Health and Well-being",
+      "connection": "Sustainable lifestyle choices often lead to healthier living"
+    },
+    {
+      "number": 11,
+      "title": "Sustainable Cities and Communities",
+      "connection": "Individual sustainable choices scale up to create sustainable communities"
+    }
+  ]
+}

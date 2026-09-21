@@ -1,0 +1,214 @@
+{
+  "food": {
+    "category": "Food & Diet",
+    "icon": "🍽️",
+    "items": {
+      "heavy_meat": {
+        "label": "Heavy Meat Eater (>100g/day)",
+        "co2_per_day_kg": 7.19,
+        "description": "Beef, lamb, and pork dominant diet"
+      },
+      "medium_meat": {
+        "label": "Medium Meat Eater (50-100g/day)",
+        "co2_per_day_kg": 5.63,
+        "description": "Moderate meat consumption with variety"
+      },
+      "low_meat": {
+        "label": "Low Meat Eater (<50g/day)",
+        "co2_per_day_kg": 4.67,
+        "description": "Occasional meat, mostly plant-based"
+      },
+      "pescatarian": {
+        "label": "Pescatarian",
+        "co2_per_day_kg": 3.91,
+        "description": "Fish and seafood, no meat"
+      },
+      "vegetarian": {
+        "label": "Vegetarian",
+        "co2_per_day_kg": 3.81,
+        "description": "No meat or fish, includes dairy and eggs"
+      },
+      "vegan": {
+        "label": "Vegan",
+        "co2_per_day_kg": 2.89,
+        "description": "Fully plant-based diet"
+      }
+    },
+    "food_waste": {
+      "high": { "label": "Frequent food waste", "co2_per_day_kg": 0.9 },
+      "medium": { "label": "Occasional food waste", "co2_per_day_kg": 0.45 },
+      "low": { "label": "Minimal food waste", "co2_per_day_kg": 0.15 }
+    }
+  },
+  "transport": {
+    "category": "Transportation",
+    "icon": "🚗",
+    "items": {
+      "car_petrol": {
+        "label": "Petrol Car",
+        "co2_per_km_kg": 0.192,
+        "description": "Average petrol/gasoline car"
+      },
+      "car_diesel": {
+        "label": "Diesel Car",
+        "co2_per_km_kg": 0.171,
+        "description": "Average diesel car"
+      },
+      "car_electric": {
+        "label": "Electric Car",
+        "co2_per_km_kg": 0.053,
+        "description": "Battery electric vehicle"
+      },
+      "motorcycle": {
+        "label": "Motorcycle/Scooter",
+        "co2_per_km_kg": 0.113,
+        "description": "Average motorcycle"
+      },
+      "bus": {
+        "label": "Public Bus",
+        "co2_per_km_kg": 0.089,
+        "description": "City bus per passenger"
+      },
+      "train": {
+        "label": "Train/Metro",
+        "co2_per_km_kg": 0.041,
+        "description": "Electric rail per passenger"
+      },
+      "auto_rickshaw": {
+        "label": "Auto Rickshaw",
+        "co2_per_km_kg": 0.098,
+        "description": "Three-wheeler CNG/petrol"
+      },
+      "bicycle": {
+        "label": "Bicycle",
+        "co2_per_km_kg": 0.0,
+        "description": "Zero emissions"
+      },
+      "walking": {
+        "label": "Walking",
+        "co2_per_km_kg": 0.0,
+        "description": "Zero emissions"
+      },
+      "domestic_flight": {
+        "label": "Domestic Flight",
+        "co2_per_km_kg": 0.255,
+        "description": "Short-haul flight per passenger"
+      }
+    }
+  },
+  "energy": {
+    "category": "Home Energy",
+    "icon": "⚡",
+    "items": {
+      "electricity": {
+        "label": "Electricity (India avg)",
+        "co2_per_kwh_kg": 0.82,
+        "description": "Indian grid average"
+      },
+      "electricity_solar": {
+        "label": "Solar Electricity",
+        "co2_per_kwh_kg": 0.05,
+        "description": "Rooftop solar panels"
+      },
+      "lpg_cooking": {
+        "label": "LPG Cooking Gas",
+        "co2_per_cylinder_kg": 44.1,
+        "description": "Per 14.2kg cylinder"
+      },
+      "ac_usage": {
+        "label": "Air Conditioning",
+        "co2_per_hour_kg": 1.23,
+        "description": "1.5 ton split AC"
+      }
+    },
+    "monthly_usage": {
+      "low": { "label": "Low (<100 kWh/month)", "co2_per_month_kg": 82 },
+      "medium": { "label": "Medium (100-300 kWh/month)", "co2_per_month_kg": 164 },
+      "high": { "label": "High (300-500 kWh/month)", "co2_per_month_kg": 328 },
+      "very_high": { "label": "Very High (>500 kWh/month)", "co2_per_month_kg": 492 }
+    }
+  },
+  "shopping": {
+    "category": "Shopping & Consumption",
+    "icon": "🛍️",
+    "items": {
+      "fast_fashion": {
+        "label": "Fast Fashion (per item)",
+        "co2_per_item_kg": 10.0,
+        "description": "Average fast fashion garment"
+      },
+      "sustainable_fashion": {
+        "label": "Sustainable Fashion (per item)",
+        "co2_per_item_kg": 5.5,
+        "description": "Eco-friendly brands"
+      },
+      "electronics_phone": {
+        "label": "New Smartphone",
+        "co2_per_item_kg": 70.0,
+        "description": "Manufacturing + shipping"
+      },
+      "electronics_laptop": {
+        "label": "New Laptop",
+        "co2_per_item_kg": 300.0,
+        "description": "Manufacturing + shipping"
+      },
+      "plastic_bags": {
+        "label": "Plastic Bags (per bag)",
+        "co2_per_item_kg": 0.033,
+        "description": "Single-use plastic bag"
+      },
+      "reusable_bag": {
+        "label": "Reusable Bag",
+        "co2_per_item_kg": 0.002,
+        "description": "Per use after 50+ uses"
+      }
+    },
+    "frequency": {
+      "shopaholic": { "label": "Frequent shopper (weekly)", "co2_per_month_kg": 80 },
+      "moderate": { "label": "Moderate shopper (bi-weekly)", "co2_per_month_kg": 40 },
+      "minimal": { "label": "Minimal shopper (monthly)", "co2_per_month_kg": 15 },
+      "conscious": { "label": "Conscious consumer (as needed)", "co2_per_month_kg": 8 }
+    }
+  },
+  "waste": {
+    "category": "Waste Management",
+    "icon": "♻️",
+    "items": {
+      "no_recycling": {
+        "label": "No recycling/sorting",
+        "co2_per_day_kg": 1.2,
+        "description": "All waste to landfill"
+      },
+      "some_recycling": {
+        "label": "Some recycling",
+        "co2_per_day_kg": 0.7,
+        "description": "Partial waste sorting"
+      },
+      "active_recycling": {
+        "label": "Active recycling",
+        "co2_per_day_kg": 0.3,
+        "description": "Regular sorting and recycling"
+      },
+      "composting": {
+        "label": "Composting + recycling",
+        "co2_per_day_kg": 0.1,
+        "description": "Composting organic waste + recycling"
+      }
+    }
+  },
+  "averages": {
+    "global_per_capita_annual_tonnes": 4.7,
+    "india_per_capita_annual_tonnes": 1.9,
+    "us_per_capita_annual_tonnes": 15.5,
+    "eu_per_capita_annual_tonnes": 6.8,
+    "china_per_capita_annual_tonnes": 7.4,
+    "paris_target_per_capita_annual_tonnes": 2.1
+  },
+  "sources": [
+    "IPCC AR6 (2021-2023)",
+    "EPA Emission Factors Hub",
+    "Our World in Data - CO2 Emissions",
+    "India GHG Program",
+    "Carbon Trust Reports"
+  ]
+}
